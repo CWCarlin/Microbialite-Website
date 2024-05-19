@@ -1,2 +1,16 @@
 Microbialite Website
 Do It For Him
+
+This website was developed as a semester-long group project for CISC 450 Database Design, in collaboration with Dr. Hickson, a geology professor at the University of St. Thomas. Dr. Hickson's team had collected extensive, unorganized data on Microbialite formations in Nevada. Our task was to normalize this data and create an accessible user interface for researchers to manage the database.
+
+The website interacts with the Microbialite Database, featuring a user interface built with JavaScript. We used Node.js to develop an API that connects to an sqlite3 database, enabling users to view, add, and delete data. This project streamlined the data management process, making the database more functional and user-friendly for ongoing research.
+
+## Application Setup
+Notes: Download and install VSCode and node.js if you don't have them already installed
+
+1. Clone project from GitHub into VSCode
+2. Open the terminal with `Ctrl+~` and make sure you are in the Microbialites Website folder by runnig the command `cd Microbialite-Website`
+3. Once in correct folder run `npm install` and by the end of the installation you should see a `node_modules` folder
+4. You can now run `node app.js` and you should see `Server listening on port:___` in the terminal
+5. The server is now active and you can access the website by going to your browser and entering "localhost:`port number given in terminal`"
+6. Close the server by going back to the terminal and entering `Ctrl+C`
